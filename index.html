@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <title>GPA Estimator</title>
+</head>
+<body>
+    <div id="main">
+        <h1 class="centered">GPA Estimator</h1>
+        <table class="centered">
+            <tr>
+                <td colspan="2">
+                    <span class="flex-area">
+                        <label for="first-field">Grade 1:</label>
+                        <input id="first-field" type="text" name="first-field">
+                    </span>
+                </td>
+            </tr>
+            <tr class="blank-row">
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span class="flex-area">
+                        <label for="second-field">Grade 2:</label>
+                        <input id="second-field" type="text" name="second-field">
+                    </span>
+                </td>
+            </tr>
+            <tr class="blank-row">
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span class="flex-area">
+                        <label for="third-field">Grade 3:</label>
+                        <input id="third-field" type="text" name="third-field">
+                    </span>
+                </td>
+            </tr>
+                <td colspan="2"></td>
+            <tr>
+                <td><label>GPA Average: <span id="average">0.00</span></label></td>
+            </tr>
+        </table>
+        <div id="button-div">
+            <button id="btn-average">Get GPA</button>
+        </div>
+    </div>
+
+    <script src="scripts/calc.js"></script>
+</body>
+</html>
